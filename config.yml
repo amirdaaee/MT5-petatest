@@ -1,0 +1,20 @@
+system:
+  mt5_basedir: C:\Program Files\ForexTime (FXTM) MT5
+  mt5_terminal: C:\Program Files\ForexTime (FXTM) MT5\terminal.exe
+run:
+  n_run: 2
+  start_date_min: 2018.01.01
+  start_date_max: 2019.01.01
+  duration_min: 30       #days
+  duration_max: 90      #days
+tester:
+  Expert: Examples\MACD\MACD Sample
+  Symbol: EURUSD
+  Period: H1
+  Model: 1
+  #0 — "Every tick", 1 — "1 minute OHLC", 2 — "Open price only", 3 — "Math calculations", 4 — "Every tick based on real ticks"
+  Deposit: 10000
+  Currency: USD
+  Leverage: 100
+  ExecutionMode: 1
+  #0 — normal, -1 — with a random delay in the execution of trading orders, >0 — trade execution delay in milliseconds, it cannot exceed 600 000

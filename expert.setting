@@ -1,0 +1,6 @@
+InpLots=0.2
+InpTakeProfit=50
+InpTrailingStop=30
+InpMACDOpenLevel=3
+InpMACDCloseLevel=2
+InpMATrendPeriod=26
