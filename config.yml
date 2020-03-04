@@ -1,8 +1,9 @@
 system:
-  mt5_basedir: C:\Program Files\ForexTime (FXTM) MT5
-  mt5_terminal: C:\Program Files\ForexTime (FXTM) MT5\terminal.exe
+#  mt5_basedir: C:\Program Files\ForexTime (FXTM) MT5
+  mt5_basedir: C:\Users\amir\AppData\Roaming\MetaQuotes\Terminal\158904DFD898D640E9B813D10F9EB397
+  mt5_terminal: C:\Program Files\ForexTime (FXTM) MT5\terminal64.exe
 run:
-  n_run: 2
+  n_run: 1
   start_date_min: 2018.01.01
   start_date_max: 2019.01.01
   duration_min: 30       #days
